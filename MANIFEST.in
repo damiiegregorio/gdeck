@@ -1,0 +1,4 @@
+include README.rst
+include gdeck/*.ini
+include /*.txt
+include /*.md
