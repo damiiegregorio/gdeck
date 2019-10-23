@@ -19,10 +19,20 @@ a python module that displays the value of a card's suit and rank when using the
 
 
 ## Running the program
+
+### Draw a random card
 ```
-import gdeck
+>>> from gdeck import Deck
+>>> deck = Deck()
+>> print(deck.choice())
 ```
 
+### Slicing cards
+```
+>>> from gdeck import Deck
+>>> deck = Deck()
+>> print(deck[<from>:<end>])
+```
 
 ## Built With
 * [Python](https://www.python.org/downloads/) v3.7
