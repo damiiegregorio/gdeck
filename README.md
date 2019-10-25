@@ -17,6 +17,13 @@ a python module that displays the value of a card's suit and rank when using the
 * An instance of class Deck should return a card/list of cards when slicing is used (To know more about slicing: https://www.oreilly.com/learning/how-do-i-use-the-slice-notation-in-python)
 
 
+## Features
+
+* Draw a random card
+* Display deck
+* Display deck length
+* Display card position
+* Slicing cards
 
 ## Usage
 
