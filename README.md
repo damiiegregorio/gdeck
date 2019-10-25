@@ -18,7 +18,12 @@ a python module that displays the value of a card's suit and rank when using the
 
 
 
-## Running the program
+## Usage
+
+### Installation
+```
+pip install gdeck
+```
 
 ### Draw a random card
 ```
@@ -27,11 +32,39 @@ a python module that displays the value of a card's suit and rank when using the
 >> print(deck.choice())
 ```
 
+### Display deck
+```
+>>> from gdeck import Deck
+>>> deck = Deck()
+>> print(deck.show_deck())
+```
+
+### Show deck length
+```
+>>> from gdeck import Deck
+>>> deck = Deck()
+>> print(deck.__len__())
+```
+
+### Display card position
+```
+>>> from gdeck import Deck
+>>> deck = Deck()
+>> print(deck.__getitem__(<number>))
+```
+
 ### Slicing cards
 ```
 >>> from gdeck import Deck
 >>> deck = Deck()
 >> print(deck[<from>:<end>])
+```
+
+## Testing
+```
+pip install pytest-cov
+pip install pytest-xdist
+python -m pytest --cov=gdeck test_gdeck.py
 ```
 
 ## Built With
