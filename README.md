@@ -27,34 +27,34 @@ a python module that displays the value of a card's suit and rank when using the
 
 ## Usage
 
-### Installation
+#### Installation
 ```
 pip install gdeck
 ```
 
-### Draw a random card
+#### Draw a random card
 ```
 >>> from gdeck import Deck
 >>> deck = Deck()
 >> print(deck.choice())
 ```
 
-### Display deck
+#### Display deck
 ```
 >> print(deck.show_deck())
 ```
 
-### Show deck length
+#### Show deck length
 ```
 >> print(deck.__len__())
 ```
 
-### Display card position
+#### Display card position
 ```
 >> print(deck.__getitem__(<number>))
 ```
 
-### Slicing cards
+#### Slicing cards
 ```
 >> print(deck[<from>:<end>])
 ```
