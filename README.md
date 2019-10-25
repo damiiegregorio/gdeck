@@ -34,29 +34,21 @@ pip install gdeck
 
 ### Display deck
 ```
->>> from gdeck import Deck
->>> deck = Deck()
 >> print(deck.show_deck())
 ```
 
 ### Show deck length
 ```
->>> from gdeck import Deck
->>> deck = Deck()
 >> print(deck.__len__())
 ```
 
 ### Display card position
 ```
->>> from gdeck import Deck
->>> deck = Deck()
 >> print(deck.__getitem__(<number>))
 ```
 
 ### Slicing cards
 ```
->>> from gdeck import Deck
->>> deck = Deck()
 >> print(deck[<from>:<end>])
 ```
 
